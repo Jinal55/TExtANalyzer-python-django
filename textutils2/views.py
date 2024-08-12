@@ -2,7 +2,6 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 
-# this is too good
 
 def about(request):
     return render(request, 'about.html')
