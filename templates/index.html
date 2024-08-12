@@ -46,8 +46,9 @@
 </div>
 
 <div class="container">
-    <form method="post" action="/analyze"> {% csrf_token %} # cross-site request forgery,Django by default provides it.
-        #so that no other websites can send request to the end point of ur website
+    <form method="post" action="/analyze"> {% csrf_token %}
+<!--        cross-site request forgery,Django by default provides it.-->
+<!--        #so that no other websites can send request to the end point of ur website-->
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Enter your text here: </label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" name="text"></textarea>
