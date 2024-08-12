@@ -97,6 +97,6 @@ def analyze(request):
     #     params = {'purpose': 'count character in text', 'analyzed_text': analyzed}
     #     return render(request, "analyze.html", params)
     if removepunc == "off" and fullcaps == "off" and newlineremover == "off" and extraspaceremover == "off":
-        return HttpResponse("Please select any of the option..")
+        return HttpResponse("Please select any of the option...")
 
     return render(request, "analyze.html", params)
