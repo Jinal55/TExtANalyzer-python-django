@@ -102,4 +102,4 @@ def analyze(request):
     return render(request, "analyze.html", params)
 
 
-hello jinal ratgod
+# hello jinal ratgod
