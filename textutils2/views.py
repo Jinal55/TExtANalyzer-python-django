@@ -100,3 +100,6 @@ def analyze(request):
         return HttpResponse("Please select any of the option..")
 
     return render(request, "analyze.html", params)
+
+
+hello jinal ratgod
